@@ -35,13 +35,13 @@ function setup() {
   stepbutton = createButton("step forward");
   backbutton = createButton("step back");
   sbutton.mousePressed(toggleGenerate);
-  sbutton.position(windowWidth / 2, height); // this  window width and canvas height
+  sbutton.position(windowWidth / 2, windowHeight-25); // this  window width and 
   stepbutton.mousePressed(stepgen);
   backbutton.mousePressed(backgen);
-  stepbutton.position(windowWidth - windowWidth / 4, height);
-  backbutton.position(windowWidth/4,height);
+  stepbutton.position(windowWidth - windowWidth / 4, windowHeight-25);
+  backbutton.position(windowWidth/4, windowHeight-25);
   gendisplay =createElement('h2', str(generation));
-  gendisplay.position(windowWidth/5,height-20);
+  gendisplay.position(windowWidth/5, windowHeight-50);
   
   background(70);
   for (let i = 0; i < cellsize; i++) {
