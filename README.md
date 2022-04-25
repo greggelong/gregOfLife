@@ -5,6 +5,12 @@ This is a bit of fun with Conway's game of life
 
 Live cells are my face.
 
+https://greggelong.github.io/gregOfLife/
+
+It was featured as a community contribution on The Coding Train!!
+
+https://youtu.be/AGR3sfOq2qc?t=2220
+
 It uses the same cell object that I created and the cells 
 
 keep track of their history.  That means you can rewind according to the
@@ -28,6 +34,8 @@ having an array to keep track of their histories at a given time step.
 Then you are rewinding by looking up a recorded past state. You are not computing a prior state using the algorithm.
 
 
+
+-----
 
 
 this is code originally written on the P5 web editor in the 
