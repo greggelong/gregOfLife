@@ -1,5 +1,8 @@
 # gregOfLife
 
+this is code originally written on the P5 web editor in the 
+
+summer of 2019.  
 
 This is a bit of fun with Conway's game of life
 
