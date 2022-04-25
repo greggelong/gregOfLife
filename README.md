@@ -1,8 +1,5 @@
 # gregOfLife
 
-this is code originally written on the P5 web editor in the 
-
-summer of 2019.  
 
 This is a bit of fun with Conway's game of life
 
@@ -24,4 +21,17 @@ He goes on to say
 
 >This fact is responsible for one of the occasional frustrations of playing Life. Sometimes you will see something interesting happen, stop the program and be unable to backtrack and repeat it.  There is no simple way you can program a computer to go backward from a Life State-- there are too many possibilities.
 
-Of course there is a very easy way, now, using cells as objects and having an array to keep track of their histories at a given time step. Then you are rewinding by looking up a recorded past state. You are not computing a prior state using the algorithm.
+Of course there is a very easy way, now, using cells as objects and 
+
+having an array to keep track of their histories at a given time step. 
+
+Then you are rewinding by looking up a recorded past state. You are not computing a prior state using the algorithm.
+
+
+
+
+this is code originally written on the P5 web editor in the 
+
+summer of 2019.  
+
+https://editor.p5js.org/greggelong/sketches/VGD6wwYTv
